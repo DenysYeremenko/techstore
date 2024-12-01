@@ -115,6 +115,8 @@ export const cartModule = {
   },
   actions: {
     async fetchCart({ commit }) {
+      const user = Cookies.get('user')
+      const parsedUser = user ? JSON.parse(user) : null
       commit('setIsLoading', true)
       try {
         const response = await axiosInstance.get(`/users/${parsedUser.id}`, {
@@ -133,6 +135,8 @@ export const cartModule = {
     },
 
     async fetchOrders({ commit }) {
+      const user = Cookies.get('user')
+      const parsedUser = user ? JSON.parse(user) : null
       commit('setIsLoading', true)
       try {
         const response = await axiosInstance.get(`/users/${parsedUser.id}`, {
