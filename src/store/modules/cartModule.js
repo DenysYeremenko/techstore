@@ -152,6 +152,8 @@ export const cartModule = {
     },
 
     async updateCart({ commit, state }) {
+      const user = Cookies.get('user')
+      const parsedUser = user ? JSON.parse(user) : null
       if (!state.isCartUpdated) return
       try {
         const response = await axiosInstance.patch(

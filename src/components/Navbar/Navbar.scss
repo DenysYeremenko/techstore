@@ -116,6 +116,9 @@
     &-name {
       font-size: 16px;
       font-weight: bold;
+      &--user {
+        color: #4285f4;
+      }
     }
   }
 
@@ -129,6 +132,9 @@
     padding: 10px;
     border-top: 1px solid #eaeaea;
     animation: slideInFromRight 0.3s ease-out forwards;
+    &--user {
+      color: #4285f4;
+    }
   }
 
   &__list-container {

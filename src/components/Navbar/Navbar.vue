@@ -16,7 +16,8 @@
             showMobileNav = false; showProfileMenu = false">
         <div class="navbar__list-container">
             <p class="navbar__profile-name"
-               v-if="showProfileMenu && !isLargeScreen">Hi {{ userName }}!</p>
+               v-if="showProfileMenu && !isLargeScreen">Hi <span class="navbar__profile-name--user">{{ userName
+                    }}</span>!</p>
             <ul class="navbar__list">
                 <li v-if="showProfileMenu && !isLargeScreen"
                     class="navbar__list-item">
@@ -63,7 +64,8 @@
         <div v-if="!showMobileNav"
              v-click-outside="handelClickOutside"
              :class="['navbar__profileMenu', { 'navbar__profileMenu--visible': showProfileMenu }]">
-            <p class="navbar__profileMenu-name">Hi {{ userName }}!</p>
+            <p class="navbar__profileMenu-name">Hi <span class="navbar__profileMenu-name--user">{{ userName }}</span>!
+            </p>
             <ul class="navbar__list">
                 <li class="navbar__list-item">
                     <NavButton :text="'Favourites'"
@@ -122,7 +124,7 @@ export default {
     computed: {
         ...mapState({
             isLogged: state => state.auth.isLogged,
-            userName: state => state.auth.user,
+            userName: state => state.auth.userName,
         }),
 
     },

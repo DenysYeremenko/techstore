@@ -9,6 +9,7 @@ import SignUpView from '@/views/SignUpView/SignUpView.vue'
 import ProductDetailView from '@/views/ProductDetailView/ProductDetailView.vue'
 import OrdersView from '@/views/OrdersView/OrdersView.vue'
 import FavouritesView from '@/views/FavouritesView/FavouritesView.vue'
+import NotFoundView from '@/views/NotFoundView/NotFoundView.vue'
 
 const router = createRouter({
   history: createWebHistory('/techstore/'),
@@ -64,6 +65,11 @@ const router = createRouter({
       path: '/signUp',
       name: 'SignUp',
       component: SignUpView,
+    },
+    {
+      path: '/:catchAll(.*)',
+      name: 'NotFound',
+      component: NotFoundView,
     },
   ],
 })
