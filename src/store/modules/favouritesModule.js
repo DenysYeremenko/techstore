@@ -66,6 +66,8 @@ export const favouritesModule = {
     },
 
     async updateFavourites({ commit, state }) {
+      const user = Cookies.get('user')
+      const parsedUser = user ? JSON.parse(user) : null
       if (!state.isFavouritesUpdated) return
       try {
         const response = await axiosInstance.patch(

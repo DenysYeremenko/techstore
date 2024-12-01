@@ -15,7 +15,14 @@
     <!-- Product Grid -->
     <div ref="productsGrid"
          class="products-grid">
-        <ProductCard v-for="product in products"
+        <AnimatedPlaceholder v-if="isLoading"
+                             v-for="n in 9"
+                             :key="n"
+                             width="325px"
+                             height="420px"
+                             borderRadius="40px" />
+        <ProductCard v-if="!isLoading"
+                     v-for="product in products"
                      :key="product.id"
                      :id="product.id"
                      :name="product.name"
@@ -58,11 +65,13 @@ import dynamicFieldOptions from '@/components/UI/DynamicField/data/';
 import DynamicField from '@/components/UI/DynamicField/DynamicField.vue';
 import ProductCard from '@/components/ProductCard/ProductCard.vue';
 import autoAnimate from '@formkit/auto-animate';
+import AnimatedPlaceholder from '../Skeleton/AnimatedPlaceholder.vue';
 
 export default {
     components: {
         DynamicField,
         ProductCard,
+        AnimatedPlaceholder
     },
     props: {
         products: {
@@ -144,4 +153,11 @@ export default {
 
 <style lang="scss" scoped>
 @use 'ProductsGrid' as *;
+
+.skeleton-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
 </style>

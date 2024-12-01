@@ -4,7 +4,8 @@
         <div class="product-card__image-container">
             <img :src="imgURL"
                  :alt="name"
-                 class="product-card__image" />
+                 class="product-card__image"
+                 loading="lazy" />
             <button v-if="isLogged"
                     @click.stop="handleAddToFavourites"
                     :class="['product-card__favourite-button', { 'product-card__favourite-button--added': isProductAddedToFavourites }]">
