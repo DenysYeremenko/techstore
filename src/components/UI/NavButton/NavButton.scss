@@ -1,0 +1,61 @@
+.navigation-button {
+  position: relative;
+  display: flex;
+  gap: 10px;
+  transition: color 0.3s ease;
+
+  &:hover .navigation-button__name {
+    color: #4285f4;
+  }
+
+  @media (max-width: 1024px) {
+    padding: 12px;
+    width: 100%;
+
+    &:active {
+      background-color: #eaeaea;
+    }
+  }
+
+  &__name {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5c5c5c;
+    transition: color 0.3s ease;
+
+    @media (max-width: 1024px) {
+      font-size: 12px;
+    }
+  }
+
+  &__cart-counter {
+    position: absolute;
+    top: -9px;
+    left: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    width: 12px;
+    height: 12px;
+    background-color: #4285f4;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+
+    &:hover {
+      filter: none !important;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    &__cart-counter {
+      top: 4px;
+      left: 25px;
+      width: 10px;
+      height: 10px;
+      font-size: 10px;
+    }
+  }
+}

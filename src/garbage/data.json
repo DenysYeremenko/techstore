@@ -1,0 +1,503 @@
+[
+  {
+    "id": "1001",
+    "name": "3DConnexion SpaceMouse",
+    "imgURL": "https://i.ibb.co/K5FmksF/photo-2024-10-15-21-35-15.jpg",
+    "category": "mice",
+    "description": "A gaming mouse featuring ergonomic design and advanced optical sensor for high precision.",
+    "price": 23.81
+  },
+  {
+    "id": "1002",
+    "name": "Logitech MX Master 3",
+    "imgURL": "https://i.ibb.co/CzZKXhF/photo-2024-10-15-21-36-30.jpg",
+    "category": "mice",
+    "description": "Wireless mouse designed for productivity with customizable buttons and ergonomic shape.",
+    "price": 55.24
+  },
+  {
+    "id": "1003",
+    "name": "SteelSeries Rival 3",
+    "imgURL": "https://i.ibb.co/jGT1m1Q/photo-2024-10-15-21-36-35.jpg",
+    "category": "mice",
+    "description": "Optical gaming mouse with RGB illumination and durable design for competitive gaming.",
+    "price": 13.32
+  },
+  {
+    "id": "1004",
+    "name": "Corsair M65 RGB",
+    "imgURL": "https://i.ibb.co/H4h5FFS/photo-2024-10-15-21-36-38.jpg",
+    "category": "mice",
+    "description": "RGB illuminated mouse with customizable weight and high-precision sensor.",
+    "price": 37.43
+  },
+  {
+    "id": "1005",
+    "name": "Apple Magic Mouse",
+    "imgURL": "https://i.ibb.co/dtkvqq6/photo-2024-10-15-21-36-42.jpg",
+    "category": "mice",
+    "description": "Ultra-thin mouse with touch-sensitive surface for easy scrolling and gestures.",
+    "price": 60.4
+  },
+  {
+    "id": "1006",
+    "name": "HyperX Pulsefire",
+    "imgURL": "https://i.ibb.co/2s4HBmm/photo-2024-10-15-21-36-47.jpg",
+    "category": "mice",
+    "description": "Mouse with side buttons and customizable RGB lighting for a personalized gaming experience.",
+    "price": 28.89
+  },
+  {
+    "id": "1007",
+    "name": "ASUS WT425",
+    "imgURL": "https://i.ibb.co/tPsKmKL/photo-2024-10-15-21-36-50.jpg",
+    "category": "mice",
+    "description": "Compact mouse designed for laptops, featuring reliable wireless connectivity.",
+    "price": 17.02
+  },
+  {
+    "id": "1008",
+    "name": "Redragon M602",
+    "imgURL": "https://i.ibb.co/5MhZj5q/photo-2024-10-15-21-36-54.jpg",
+    "category": "mice",
+    "description": "Gaming mouse with programmable buttons and adjustable DPI settings.",
+    "price": 20.56
+  },
+  {
+    "id": "1009",
+    "name": "Microsoft Sculpt Ergonomic",
+    "imgURL": "https://i.ibb.co/Q8PxXxr/photo-2024-10-15-21-37-02.jpg",
+    "category": "mice",
+    "description": "Ergonomically designed mouse for comfort during long usage sessions.",
+    "price": 44.9
+  },
+  {
+    "id": "1010",
+    "name": "Zowie EC2",
+    "imgURL": "https://i.ibb.co/WKBwVrX/photo-2024-10-15-21-37-06.jpg",
+    "category": "mice",
+    "description": "Designed for professional gamers, this mouse offers a lightweight body and excellent grip.",
+    "price": 29.2
+  },
+  {
+    "id": "1011",
+    "name": "Razer Viper Mini",
+    "imgURL": "https://i.ibb.co/3S8h91R/photo-2024-10-15-21-37-10.jpg",
+    "category": "mice",
+    "description": "Lightweight gaming mouse with a high-precision optical sensor.",
+    "price": 24.99
+  },
+  {
+    "id": "1012",
+    "name": "Logitech G Pro",
+    "imgURL": "https://i.ibb.co/cLykxXf/photo-2024-10-15-21-37-14.jpg",
+    "category": "mice",
+    "description": "Professional gaming mouse with customizable RGB and a lightweight design.",
+    "price": 59.99
+  },
+  {
+    "id": "1013",
+    "name": "SteelSeries Sensei Ten",
+    "imgURL": "https://i.ibb.co/NjHTvz2/photo-2024-10-15-21-37-18.jpg",
+    "category": "mice",
+    "description": "Ergonomic mouse designed for comfort and high performance.",
+    "price": 59.99
+  },
+  {
+    "id": "1014",
+    "name": "Corsair Katar Pro",
+    "imgURL": "https://i.ibb.co/zFMn6SY/photo-2024-10-15-21-37-21.jpg",
+    "category": "mice",
+    "description": "Lightweight gaming mouse designed for speed and accuracy.",
+    "price": 29.99
+  },
+  {
+    "id": "1015",
+    "name": "Glorious Model O",
+    "imgURL": "https://i.ibb.co/sH4FZrM/photo-2024-10-15-21-37-25.jpg",
+    "category": "mice",
+    "description": "Ultra-lightweight gaming mouse with customizable RGB lighting.",
+    "price": 49.99
+  },
+  {
+    "id": "1016",
+    "name": "Razer Naga Trinity",
+    "imgURL": "https://i.ibb.co/YZYbLJm/photo-2024-10-15-21-37-28.jpg",
+    "category": "mice",
+    "description": "Versatile gaming mouse with customizable side panels for different gaming styles.",
+    "price": 99.99
+  },
+  {
+    "id": "1017",
+    "name": "Logitech G502 Hero",
+    "imgURL": "https://i.ibb.co/1b3Z20G/photo-2024-10-15-21-37-31.jpg",
+    "category": "mice",
+    "description": "High-performance gaming mouse with adjustable weights and customizable buttons.",
+    "price": 79.99
+  },
+  {
+    "id": "1018",
+    "name": "HyperX Pulsefire Haste",
+    "imgURL": "https://i.ibb.co/tB7kCTr/photo-2024-10-15-21-37-36.jpg",
+    "category": "mice",
+    "description": "Lightweight mouse with a honeycomb design for better airflow and speed.",
+    "price": 49.99
+  },
+  {
+    "id": "1019",
+    "name": "ASUS ROG Gladius III",
+    "imgURL": "https://i.ibb.co/JnQ48mg/photo-2024-10-15-21-37-40.jpg",
+    "category": "mice",
+    "description": "Ergonomic mouse with customizable RGB and high-precision sensor.",
+    "price": 79.99
+  },
+  {
+    "id": "1020",
+    "name": "Zowie FK2",
+    "imgURL": "https://i.ibb.co/d0xKkgq/photo-2024-10-15-21-37-44.jpg",
+    "category": "mice",
+    "description": "Low-profile mouse designed for comfort and precision during gaming.",
+    "price": 49.99
+  },
+  {
+    "id": "2001",
+    "name": "Corsair K70 RGB",
+
+    "imgURL": "https://i.ibb.co/Zhsfw28/photo-2024-10-15-21-40-38.jpg",
+    "category": "keyboards",
+    "description": "Mechanical keyboard with RGB backlighting and customizable macros for gaming.",
+    "price": 49.15
+  },
+  {
+    "id": "2002",
+    "name": "Logitech K810",
+
+    "imgURL": "https://i.ibb.co/F3zLGTz/photo-2024-10-15-21-40-42.jpg",
+    "category": "keyboards",
+    "description": "Wireless keyboard with Bluetooth connectivity and backlit keys.",
+    "price": 55.24
+  },
+  {
+    "id": "2003",
+    "name": "HyperX Alloy FPS",
+
+    "imgURL": "https://i.ibb.co/vQv9Qdy/photo-2024-10-15-21-41-16.jpg",
+    "category": "keyboards",
+    "description": "Compact mechanical keyboard designed for FPS gamers, featuring a durable design.",
+    "price": 43.31
+  },
+  {
+    "id": "2004",
+    "name": "Razer Huntsman Elite",
+
+    "imgURL": "https://i.ibb.co/1Qh0JmG/photo-2024-10-15-21-40-52.jpg",
+    "category": "keyboards",
+    "description": "Mechanical gaming keyboard with fast responsive keys and customizable RGB lighting.",
+    "price": 138.2
+  },
+  {
+    "id": "2005",
+    "name": "Dell KB216",
+
+    "imgURL": "https://i.ibb.co/ynJ5Q2N/photo-2024-10-15-21-41-23.jpg",
+    "category": "keyboards",
+    "description": "Standard keyboard for general use, offering a comfortable typing experience.",
+    "price": 11.05
+  },
+  {
+    "id": "2006",
+    "name": "SteelSeries Apex Pro",
+
+    "imgURL": "https://i.ibb.co/5YSMpJr/photo-2024-10-15-21-41-26.jpg",
+    "category": "keyboards",
+    "description": "Mechanical keyboard with adjustable actuation and RGB lighting for a customizable experience.",
+    "price": 150.65
+  },
+  {
+    "id": "2007",
+    "name": "A4Tech Keyboard",
+
+    "imgURL": "https://i.ibb.co/BLkmWP5/photo-2024-10-15-21-41-30.jpg",
+    "category": "keyboards",
+    "description": "Versatile keyboard with multimedia keys and a comfortable layout.",
+    "price": 14.98
+  },
+  {
+    "id": "2008",
+    "name": "Apple Magic Keyboard",
+
+    "imgURL": "https://i.ibb.co/4FvvQ3G/photo-2024-10-15-21-41-34.jpg",
+    "category": "keyboards",
+    "description": "Sleek keyboard with a low profile design and wireless connectivity.",
+    "price": 97.54
+  },
+  {
+    "id": "2009",
+    "name": "Cooler Master CK552",
+
+    "imgURL": "https://i.ibb.co/WFsH8Jz/photo-2024-10-15-21-41-37.jpg",
+    "category": "keyboards",
+    "description": "RGB mechanical keyboard with a sturdy build and customizable features.",
+    "price": 63.76
+  },
+  {
+    "id": "2010",
+    "name": "HP Keyboard",
+
+    "imgURL": "https://i.ibb.co/7ntBrYj/photo-2024-10-15-21-41-40.jpg",
+    "category": "keyboards",
+    "description": "Reliable keyboard for office use with a standard layout.",
+    "price": 12.1
+  },
+  {
+    "id": "2011",
+    "name": "Logitech G Pro X",
+
+    "imgURL": "https://i.ibb.co/CzmL8pN/photo-2024-10-15-21-41-44.jpg",
+    "category": "keyboards",
+    "description": "Mechanical keyboard with customizable switches and RGB lighting.",
+    "price": 149.99
+  },
+  {
+    "id": "2012",
+    "name": "Razer BlackWidow V3",
+
+    "imgURL": "https://i.ibb.co/42jrg59/photo-2024-10-15-21-41-47.jpg",
+    "category": "keyboards",
+    "description": "Mechanical keyboard with RGB lighting and customizable keys for gamers.",
+    "price": 139.99
+  },
+  {
+    "id": "2013",
+    "name": "Corsair K55 RGB",
+
+    "imgURL": "https://i.ibb.co/tXbPjrh/photo-2024-10-15-21-41-51.jpg",
+    "category": "keyboards",
+    "description": "Membrane keyboard with RGB backlighting and dedicated media controls.",
+    "price": 49.99
+  },
+  {
+    "id": "2014",
+    "name": "SteelSeries Apex 7",
+
+    "imgURL": "https://i.ibb.co/bmddR5b/photo-2024-10-15-21-41-59.jpg",
+    "category": "keyboards",
+    "description": "Mechanical keyboard with customizable RGB and durable design.",
+    "price": 119.99
+  },
+
+  {
+    "id": "2015",
+    "name": "Razer Cynosa V2",
+
+    "imgURL": "https://i.ibb.co/1RQfGFP/photo-2024-10-15-21-42-03.jpg",
+    "category": "keyboards",
+    "description": "Membrane keyboard with customizable RGB lighting and programmable keys.",
+    "price": 59.99
+  },
+  {
+    "id": "2016",
+    "name": "Logitech K380",
+
+    "imgURL": "https://i.ibb.co/6WYxfzF/photo-2024-10-15-21-42-07.jpg",
+    "category": "keyboards",
+    "description": "Compact Bluetooth keyboard with multi-device support and long battery life.",
+    "price": 39.99
+  },
+  {
+    "id": "2017",
+    "name": "Keychron K6",
+
+    "imgURL": "https://i.ibb.co/BLkmWP5/photo-2024-10-15-21-41-30.jpg",
+    "category": "keyboards",
+    "description": "Wireless mechanical keyboard with customizable RGB and compact design.",
+    "price": 74.99
+  },
+  {
+    "id": "2018",
+    "name": "Anne Pro 2",
+
+    "imgURL": "https://i.ibb.co/WFsH8Jz/photo-2024-10-15-21-41-37.jpg",
+    "category": "keyboards",
+    "description": "Compact 60% mechanical keyboard with customizable RGB lighting and programmable keys.",
+    "price": 89.99
+  },
+  {
+    "id": "2019",
+    "name": "Ducky One 2 Mini",
+
+    "imgURL": "https://i.ibb.co/CzmL8pN/photo-2024-10-15-21-41-44.jpg",
+    "category": "keyboards",
+    "description": "60% mechanical keyboard known for its high build quality and customizable RGB.",
+    "price": 99.99
+  },
+  {
+    "id": "2020",
+    "name": "Corsair K100 RGB",
+
+    "imgURL": "https://i.ibb.co/42jrg59/photo-2024-10-15-21-41-47.jpg",
+    "category": "keyboards",
+    "description": "Premium mechanical gaming keyboard with advanced features and customizable RGB lighting.",
+    "price": 249.99
+  },
+  {
+    "id": "3001",
+    "name": "Logitech C920 HD Pro",
+    "imgURL": "https://i.ibb.co/p0CX74T/photo-2024-10-15-21-38-17.jpg",
+    "category": "monitors",
+    "description": "Full HD webcam with excellent low-light performance and built-in stereo microphones.",
+    "price": 79.99
+  },
+  {
+    "id": "3002",
+    "name": "Razer Kiyo",
+    "imgURL": "https://i.ibb.co/z4gP3Bm/photo-2024-10-15-21-38-22.jpg",
+    "category": "monitors",
+    "description": "Streaming webcam with built-in ring light for improved lighting during video calls.",
+    "price": 99.99
+  },
+  {
+    "id": "3003",
+    "name": "Microsoft LifeCam HD-3000",
+    "imgURL": "https://i.ibb.co/FY6CgY0/photo-2024-10-15-21-38-27.jpg",
+    "category": "monitors",
+    "description": "Affordable webcam with 720p HD video quality and noise-canceling microphone.",
+    "price": 49.99
+  },
+  {
+    "id": "3004",
+    "name": "Logitech StreamCam",
+    "imgURL": "https://i.ibb.co/jyHpGrX/photo-2024-10-15-21-38-39.jpg",
+    "category": "monitors",
+    "description": "Full HD webcam designed for streamers with versatile mounting options.",
+    "price": 169.99
+  },
+  {
+    "id": "3005",
+    "name": "Elgato Facecam",
+    "imgURL": "https://i.ibb.co/vZZkFLF/photo-2024-10-15-21-38-43.jpg",
+    "category": "monitors",
+    "description": "High-quality streaming webcam with advanced image processing.",
+    "price": 199.99
+  },
+  {
+    "id": "3006",
+    "name": "AUSDOM AF640",
+    "imgURL": "https://i.ibb.co/hHj0c3K/photo-2024-10-15-21-38-47.jpg",
+    "category": "monitors",
+    "description": "1080p webcam with wide-angle lens and built-in microphone.",
+    "price": 39.99
+  },
+  {
+    "id": "3007",
+    "name": "Razer Ripsaw HD",
+    "imgURL": "https://i.ibb.co/NZzjdQh/photo-2024-10-15-21-38-52.jpg",
+    "category": "monitors",
+    "description": "Game capture device with 1080p60 recording and built-in HDMI input.",
+    "price": 159.99
+  },
+  {
+    "id": "3008",
+    "name": "HP HD-4310",
+    "imgURL": "https://i.ibb.co/VDGmrt4/photo-2024-10-15-21-38-57.jpg",
+    "category": "monitors",
+    "description": "Webcam with HD video quality and a built-in microphone for video calls.",
+    "price": 29.99
+  },
+  {
+    "id": "3009",
+    "name": "Logitech BRIO",
+    "imgURL": "https://i.ibb.co/zG6m9qz/photo-2024-10-15-21-39-07.jpg",
+    "category": "monitors",
+    "description": "Ultra HD webcam with 4K video quality and advanced features for professional streaming.",
+    "price": 199.99
+  },
+  {
+    "id": "3010",
+    "name": "Creative Live! Cam Chat HD",
+    "imgURL": "https://i.ibb.co/5GsRc1W/photo-2024-10-15-21-39-13.jpg",
+    "category": "monitors",
+    "description": "720p webcam with a compact design and built-in microphone for online chats.",
+    "price": 39.99
+  },
+  {
+    "id": "3011",
+    "name": "Kiyo Pro",
+    "imgURL": "https://i.ibb.co/47QYL63/photo-2024-10-15-21-39-17.jpg",
+    "category": "monitors",
+    "description": "Premium webcam with advanced sensor technology for low-light performance.",
+    "price": 199.99
+  },
+  {
+    "id": "3012",
+    "name": "Microsoft LifeCam Cinema",
+    "imgURL": "https://i.ibb.co/frpyyBv/photo-2024-10-15-21-39-25.jpg",
+    "category": "monitors",
+    "description": "720p HD webcam with wide-angle lens and true color technology.",
+    "price": 49.99
+  },
+  {
+    "id": "3013",
+    "name": "Razer Stargazer",
+    "imgURL": "https://i.ibb.co/qk3VSCL/photo-2024-10-15-21-39-29.jpg",
+    "category": "monitors",
+    "description": "Webcam with facial recognition and gesture control for gaming.",
+    "price": 129.99
+  },
+  {
+    "id": "3014",
+    "name": "Logitech C615",
+    "imgURL": "https://i.ibb.co/bz90PPh/photo-2024-10-15-21-39-32.jpg",
+    "category": "monitors",
+    "description": "Portable HD webcam with autofocus and a foldable design.",
+    "price": 69.99
+  },
+  {
+    "id": "3015",
+    "name": "AUSDOM AW620",
+    "imgURL": "https://i.ibb.co/mcKPhh6/photo-2024-10-15-21-39-35.jpg",
+    "category": "monitors",
+    "description": "1080p webcam with dual microphones and built-in privacy cover.",
+    "price": 49.99
+  },
+  {
+    "id": "3016",
+    "name": "Razer Ripsaw",
+    "imgURL": "https://i.ibb.co/RBYRxBY/photo-2024-10-15-21-39-39.jpg",
+    "category": "monitors",
+    "description": "Capture card for streaming with full HD quality and easy setup.",
+    "price": 139.99
+  },
+  {
+    "id": "3017",
+    "name": "Logitech C270",
+    "imgURL": "https://i.ibb.co/2Yz4mW3/photo-2024-10-15-21-39-43.jpg",
+    "category": "monitors",
+    "description": "Affordable HD webcam with 720p video quality and built-in microphone.",
+    "price": 39.99
+  },
+  {
+    "id": "3018",
+    "name": "Microsoft Lifecam Studio",
+    "imgURL": "https://i.ibb.co/47QYL63/photo-2024-10-15-21-39-17.jpg",
+    "category": "monitors",
+    "description": "1080p HD webcam designed for professional quality and performance.",
+    "price": 99.99
+  },
+  {
+    "id": "3019",
+    "name": "Creative Live! Cam Sync HD",
+    "imgURL": "https://i.ibb.co/qk3VSCL/photo-2024-10-15-21-39-29.jpg",
+    "category": "monitors",
+    "description": "720p webcam with built-in mic for video calls and online meetings.",
+    "price": 29.99
+  },
+  {
+    "id": "3020",
+    "name": "Razer Kiyo X",
+    "imgURL": "https://i.ibb.co/mcKPhh6/photo-2024-10-15-21-39-35.jpg",
+    "category": "monitors",
+    "description": "Compact webcam with 1080p video quality and built-in lighting.",
+    "price": 89.99
+  }
+]

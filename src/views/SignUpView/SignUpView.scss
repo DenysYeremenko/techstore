@@ -1,0 +1,111 @@
+.signup {
+  &__form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #dadce0;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow:
+      0 1px 3px rgba(60, 64, 67, 0.3),
+      0 4px 8px rgba(60, 64, 67, 0.15);
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+
+  &__show-password {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    cursor: pointer;
+    user-select: none;
+    margin-bottom: 5px;
+
+    .signup__checkbox {
+      display: none;
+    }
+
+    .signup__checkmark {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      position: relative;
+      transition:
+        background-color 0.3s,
+        border-color 0.3s;
+      margin-right: 10px;
+    }
+
+    .signup__checkbox:checked + .signup__checkmark {
+      background-color: #4caf50;
+      border-color: #4caf50;
+    }
+
+    .signup__checkbox:checked + .signup__checkmark::after {
+      content: '✔';
+      color: white;
+      font-size: 15px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &__error {
+    color: #d93025;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  &__button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4285f4;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #357ae8;
+    }
+  }
+
+  &__login-link {
+    text-align: center;
+    margin-top: 15px;
+
+    button {
+      color: #4285f4;
+      text-decoration: none;
+      font-weight: 500;
+      border-bottom: 1px solid transparent;
+      transition: border-bottom-color 0.3s ease;
+
+      &:hover {
+        border-bottom-color: #4285f4;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .signup__form {
+    padding: 15px;
+  }
+
+  .signup__button {
+    padding: 8px;
+    font-size: 14px;
+  }
+}
