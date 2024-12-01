@@ -46,7 +46,7 @@ export default {
         handleClick() {
             this.$emit('navButtonClick');
             if (this.isLink) {
-                this.$router.push(`/techstore/${this.text.toLowerCase()}`);
+                this.$router.push(`/${this.text.toLowerCase()}`);
             }
         }
     }

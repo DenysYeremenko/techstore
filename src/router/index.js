@@ -14,54 +14,54 @@ const router = createRouter({
   history: createWebHistory('/techstore/'),
   routes: [
     {
-      path: '/techstore/',
+      path: '/',
       name: 'HomePage',
       component: HomeView,
     },
     {
-      path: '/techstore/products',
+      path: '/products',
       name: 'ProductsPage',
       component: ProductsView,
     },
     {
-      path: '/techstore/products/:id',
+      path: '/products/:id',
       name: 'ProductDetailPage',
       component: ProductDetailView,
     },
     {
-      path: '/techstore/articles',
+      path: '/articles',
       name: 'ArticlesPage',
       component: ArticlesView,
     },
     {
-      path: '/techstore/articles/:id',
+      path: '/articles/:id',
       name: 'Article',
       component: ArticleDetailView,
     },
     {
-      path: '/techstore/cart',
+      path: '/cart',
       name: 'Cart',
       component: CartView,
     },
 
     {
-      path: '/techstore/favourites',
+      path: '/favourites',
       name: 'Favourites',
       component: FavouritesView,
     },
 
     {
-      path: '/techstore/orders',
+      path: '/orders',
       name: 'Orders',
       component: OrdersView,
     },
     {
-      path: '/techstore/login',
+      path: '/login',
       name: 'Login',
       component: LoginView,
     },
     {
-      path: '/techstore/signUp',
+      path: '/signUp',
       name: 'SignUp',
       component: SignUpView,
     },
