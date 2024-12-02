@@ -10,6 +10,7 @@ import LoginView from './views/LoginView/LoginView.vue'
 import Toast from 'vue-toastification'
 import 'vue-toastification/dist/index.css'
 import LoginAlert from './components/LoginAlert/LoginAlert.vue'
+import Loader from './components/Loader/loader.vue'
 
 const options = {
   position: 'top-right',
@@ -26,4 +27,5 @@ app.component('ProductCard', ProductCard)
 app.component('ProductsGrid', ProductsGrid)
 app.component('LoginView', LoginView)
 app.component('LoginAlert', LoginAlert)
+app.component('Loader', Loader)
 app.mount('#app')

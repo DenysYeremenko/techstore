@@ -2,7 +2,7 @@
     <LoginAlert v-if="!isLogged" />
     <h2 v-if="isLogged && favourites.length < 1">No favourites added yet</h2>
     <div v-if="isLogged && favourites.length > 0">
-        <h2>Your favourite products have been added:</h2>
+        <h2 class="favourites-title">Your favourite products have been added:</h2>
         <ProductsGrid :products="favourites"
                       :isFiltersActive="false"
                       :isPaginationActive="false" />
@@ -10,7 +10,6 @@
 </template>
 
 <script>
-import ProductsGrid from '@/components/ProductsGrid/ProductsGrid.vue';
 import { mapState } from 'vuex';
 
 export default {

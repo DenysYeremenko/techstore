@@ -94,6 +94,7 @@ export default {
   mounted() {
     this.fetchArticles();
     this.fetchProducts();
+
   },
 }
 </script>

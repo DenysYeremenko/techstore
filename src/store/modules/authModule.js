@@ -14,6 +14,7 @@ export const authModule = {
     cart: [],
     favourites: [],
     orders: [],
+    isLoading: false,
   }),
   getters: {
     isAuthenticated(state) {
@@ -29,22 +30,16 @@ export const authModule = {
       state.favourites = favourites
       state.orders = orders
     },
-    // setUserName(state, user) {
-    //   state.user = user
-    // },
-    // setUserId(state, userId) {
-    //   state.userId = userId
-    // },
-    // setToken(state, token) {
-    //   state.token = token
-    // },
     setIsLogged(state, isLogged) {
       state.isLogged = isLogged
+    },
+    setIsLoading(state, isLoading) {
+      state.isLoading = isLoading
     },
   },
   actions: {
     async login({ commit }, { email, password }) {
-      const toast = useToast()
+      commit('setIsLoading', true)
       try {
         const response = await axiosInstance.post('/auth', {
           email,
@@ -81,12 +76,16 @@ export const authModule = {
         console.error('Login failed:', error)
         toast.error('Login failed')
         throw error
+      } finally {
+        commit('setIsLoading', false)
       }
     },
+
     async register(
       { commit },
       { name, email, password, cart, favourites, orders },
     ) {
+      commit('setIsLoading', true)
       try {
         const response = await axiosInstance.post('/register', {
           name,
@@ -121,6 +120,8 @@ export const authModule = {
         console.error('Registration failed:', error)
         toast.error('Registration failed')
         throw error
+      } finally {
+        commit('setIsLoading', false)
       }
     },
     async autoLogin({ commit }) {
@@ -129,6 +130,8 @@ export const authModule = {
         return
       }
       const parsedUser = JSON.parse(user)
+      commit('setIsLoading', true)
+
       try {
         const response = await axiosInstance.get('/auth_me', {
           headers: {
@@ -157,6 +160,8 @@ export const authModule = {
         commit('setUser', null)
         commit('setToken', null)
         Cookies.remove('token')
+      } finally {
+        commit('setIsLoading', false)
       }
     },
     logout({ commit }) {
@@ -178,12 +183,6 @@ export const authModule = {
       toast.info('Logged out')
       router.push('/login')
     },
-    // logout({ commit }) {
-    //   commit('setUser', null)
-    //   commit('setToken', null)
-    //   Cookies.remove('token')
-    //   toast.info('Logged out')
-    // },
   },
   namespaced: true,
 }

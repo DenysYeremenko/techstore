@@ -1,0 +1,60 @@
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(133, 126, 126, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+
+  &__dots {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    color: #4285f4;
+    box-shadow:
+      18px 0 0 7.8px,
+      36px 0 0 3.4px,
+      54px 0 0 0,
+      72px 0 0 0;
+    transform: translateX(-54px);
+    animation: dots-animation 0.5s infinite alternate linear;
+  }
+}
+
+@keyframes dots-animation {
+  25% {
+    box-shadow:
+      18px 0 0 3.4px,
+      36px 0 0 7.8px,
+      54px 0 0 3.4px,
+      72px 0 0 0;
+  }
+
+  50% {
+    box-shadow:
+      18px 0 0 0,
+      36px 0 0 3.4px,
+      54px 0 0 7.8px,
+      72px 0 0 3.4px;
+  }
+
+  75% {
+    box-shadow:
+      18px 0 0 0,
+      36px 0 0 0,
+      54px 0 0 3.4px,
+      72px 0 0 7.8px;
+  }
+
+  100% {
+    box-shadow:
+      18px 0 0 0,
+      36px 0 0 0,
+      54px 0 0 0,
+      72px 0 0 3.4px;
+  }
+}

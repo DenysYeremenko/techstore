@@ -1,5 +1,5 @@
 <template>
-    <button class="navigation-button"
+    <button :class="['navigation-button', { 'navigation-button--active': isActive }]"
             @click="handleClick">
         <img class="navigation-button__icon"
              :src="icon"
@@ -39,6 +39,10 @@ export default {
         ...mapGetters('cart', ['getAddedProductsCount']),
         AddedProductsCount() {
             return this.getAddedProductsCount;
+        },
+
+        isActive() {
+            return this.$route.path === `/${this.text.toLowerCase()}`;
         }
     },
 

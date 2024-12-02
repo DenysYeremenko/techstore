@@ -163,6 +163,16 @@ export default {
             }
         }
     },
+    watch: {
+        isLargeScreen(newVal) {
+            if (newVal) {
+                this.showProfileMenu = false;
+                this.showMobileNav = false;
+            } else {
+                this.showProfileMenu = false;
+            }
+        }
+    }
 }
 </script>
 

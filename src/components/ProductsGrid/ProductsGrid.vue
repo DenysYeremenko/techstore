@@ -1,5 +1,6 @@
 <template>
-    <div class="products-filters"
+    <div ref="productsFilters"
+         class="products-filters"
          v-if="isFiltersActive">
         <!-- Products Filters -->
         <DynamicField :options="dynamicFieldOptions.searchInput"
@@ -135,13 +136,19 @@ export default {
             if (direction === 'prev' && this.currentPage > 1) {
                 this.setCurrentPage(this.currentPage - 1);
                 this.fetchProducts();
+                this.scrollToTop()
             } else if (direction === 'next' && this.currentPage < this.pageLimit) {
                 this.setCurrentPage(this.currentPage + 1);
                 this.fetchProducts();
+                this.scrollToTop()
             } else if (typeof direction === 'number') {
                 this.setCurrentPage(direction);
                 this.fetchProducts();
+                this.scrollToTop()
             }
+        },
+        scrollToTop() {
+            this.$refs.productsFilters.scrollIntoView({ behavior: 'smooth' });
         },
     },
     mounted() {

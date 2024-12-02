@@ -78,12 +78,11 @@
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
     padding: 10px 40px;
     width: 100%;
+    opacity: 0;
+    transform: translateY(-10px);
     transition:
       opacity 0.3s ease,
       transform 0.3s ease;
-    opacity: 0;
-    transform: translateY(-10px);
-    visibility: hidden;
 
     &-list {
       display: flex;
@@ -125,7 +124,6 @@
   &__profileMenu--visible {
     opacity: 1;
     transform: translateY(0);
-    visibility: visible;
   }
 
   &__profile-name {
